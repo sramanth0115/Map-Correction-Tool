@@ -145,6 +145,7 @@ export default function MapView({
     }
   }, [drawingPoints]);
 
+  
   // Render all locations on map
   useEffect(() => {
     const map = mapInstanceRef.current;
